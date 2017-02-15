@@ -7,3 +7,26 @@
     /* font-weight: bold;*/
     font-family: Montserrat;
 }
+
+img.portrait{
+	width:  200px; 
+	height: 200px;
+	
+	-webkit-transition: all 0.2s ease;
+    -moz-transition:  	all 0.2s ease;
+    -o-transition: 		all 0.2s ease;
+    -ms-transition: 	all 0.2s ease;
+    transition: 		all 0.2s ease;
+}
+
+img.portrait:hover{
+	width:  210px; 
+	height: 210px;
+	margin-top:-5px;
+	margin-bottom:-5px;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition:  	all 0.2s ease;
+    -o-transition: 		all 0.2s ease;
+    -ms-transition: 	all 0.2s ease;
+    transition: 		all 0.2s ease;
+}
