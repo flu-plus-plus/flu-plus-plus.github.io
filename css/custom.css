@@ -22,7 +22,7 @@ img.portrait{
 img.portrait:hover{
 	width:  210px; 
 	height: 210px;
-	margin-top:-5px;
+	margin-top:-7px;
 	margin-bottom:-5px;
 	-webkit-transition: all 0.2s ease;
     -moz-transition:  	all 0.2s ease;
