@@ -38,3 +38,38 @@ img.header-logo{
 	margin-right: 10px;
 	float: left;
 }
+
+img.spinner-logo{
+	margin-bottom: 50px;
+}
+
+img.ghost-logo{
+	position: fixed;
+	right:  30px;
+	bottom:  240px;
+	opacity: 0.1;
+}
+
+img.background-logo{
+	position: absolute;
+	right:  60px;
+	opacity: 0.1;
+}
+	
+.spinner{
+	-ms-transform: 		rotate(0deg);
+    -webkit-transform: 	rotate(0deg);
+    transform: 			rotate(0deg);
+	
+	-webkit-transition: all 0.8s cubic-bezier(.6, 0, 0.4, 1);
+    -moz-transition:  	all 0.8s cubic-bezier(.6, 0, 0.4, 1);
+    -o-transition: 		all 0.8s cubic-bezier(.6, 0, 0.4, 1);
+    -ms-transition: 	all 0.8s cubic-bezier(.6, 0, 0.4, 1);
+    transition: 		all 0.8s cubic-bezier(.6, 0, 0.4, 1);	
+}
+
+.spinner:hover{
+	-ms-transform: 		rotate(720deg);
+    -webkit-transform: 	rotate(720deg);
+    transform: 			rotate(720deg);
+}
