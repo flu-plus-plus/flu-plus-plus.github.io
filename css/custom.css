@@ -30,3 +30,11 @@ img.portrait:hover{
     -ms-transition: 	all 0.2s ease;
     transition: 		all 0.2s ease;
 }
+
+img.header-logo{
+	width:  32px;
+	height: 32px;
+	margin-top:-5px;
+	margin-right: 10px;
+	float: left;
+}
