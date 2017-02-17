@@ -9,22 +9,22 @@
 }
 
 img.portrait{
-	width:  200px; 
-	height: 200px;
+    width:  200px; 
+    height: 200px;
 	
-	-webkit-transition: all 0.2s ease;
-    -moz-transition:  	all 0.2s ease;
-    -o-transition: 		all 0.2s ease;
-    -ms-transition: 	all 0.2s ease;
-    transition: 		all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 img.portrait:hover{
-	width:  210px; 
-	height: 210px;
-	margin-top:-10px;
-	margin-bottom:-5px;
-	-webkit-transition: all 0.2s ease;
+    width:  210px; 
+    height: 210px;
+    margin-top:-10px;
+    margin-bottom:-5px;
+    -webkit-transition: all 0.2s ease;
     -moz-transition:  	all 0.2s ease;
     -o-transition: 		all 0.2s ease;
     -ms-transition: 	all 0.2s ease;
@@ -32,22 +32,22 @@ img.portrait:hover{
 }
 
 img.header-logo{
-	width:  32px;
-	height: 32px;
-	margin-top:-7px;
-	margin-right: 10px;
-	float: left;
+    width:  32px;
+    height: 32px;
+    margin-top:-7px;
+    margin-right: 10px;
+    float: left;
 }
 
 img.spinner-logo{
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 img.ghost-logo{
-	position: fixed;
-	right:  30px;
-	bottom:  240px;
-	opacity: 0.1;
+    position: fixed;
+    right: 30px;
+    bottom: 240px;
+    opacity: 0.1;
 }
 
 img.background-logo{
