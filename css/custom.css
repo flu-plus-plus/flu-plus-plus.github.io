@@ -1,13 +1,47 @@
 .portrait-title {
     margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.portrait-birthday {
+    color: #4a8e7f;
+    font-size: 14px;
+    margin: 2px;
+    font-family: Montserrat;
+}
+
+.portrait-student {
+    color: #808080;
+    font-size: 12px;
+    margin: 2px;
+    font-family: Montserrat;
 }
 
 .portrait-description {
     color: #B0B0B0;
+    margin-top: 20px;
     /* font-weight: bold;*/
     font-family: Montserrat;
 }
 
+    .portrait-description#coordinator {
+        color: #4ea8cc;
+    }
+    
+    .portrait-description > span {
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        opacity: 0;
+    }
+    
+    .portrait-description:hover > span {
+        opacity: 1;
+    }
+    
+    
 img.portrait{
     width:  200px; 
     height: 200px;
