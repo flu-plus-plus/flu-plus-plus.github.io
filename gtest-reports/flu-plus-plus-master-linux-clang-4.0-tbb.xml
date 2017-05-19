@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="44" failures="1" disabled="0" errors="0" timestamp="2017-05-19T21:09:33" time="482.771" name="AllTests">
-  <testsuite name="Alias" tests="2" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="Alias" status="run" time="0" classname="Alias" />
+<testsuites tests="44" failures="0" disabled="0" errors="0" timestamp="2017-05-19T22:27:57" time="473.271" name="AllTests">
+  <testsuite name="Alias" tests="2" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="Alias" status="run" time="0.001" classname="Alias" />
     <testcase name="Next" status="run" time="0" classname="Alias" />
   </testsuite>
-  <testsuite name="CheckPoint" tests="6" failures="0" disabled="0" errors="0" time="1.357">
+  <testsuite name="CheckPoint" tests="6" failures="0" disabled="0" errors="0" time="1.303">
     <testcase name="CheckPoint" status="run" time="0" classname="CheckPoint" />
     <testcase name="CreateFile" status="run" time="0.002" classname="CheckPoint" />
-    <testcase name="Open_CloseFile" status="run" time="0" classname="CheckPoint" />
-    <testcase name="Write_LoadConfig" status="run" time="1.013" classname="CheckPoint" />
-    <testcase name="Write_LoadHolidays" status="run" time="0.002" classname="CheckPoint" />
-    <testcase name="SaveLoadCheckPoint" status="run" time="0.34" classname="CheckPoint" />
+    <testcase name="Open_CloseFile" status="run" time="0.001" classname="CheckPoint" />
+    <testcase name="Write_LoadConfig" status="run" time="0.985" classname="CheckPoint" />
+    <testcase name="Write_LoadHolidays" status="run" time="0.001" classname="CheckPoint" />
+    <testcase name="SaveLoadCheckPoint" status="run" time="0.314" classname="CheckPoint" />
   </testsuite>
   <testsuite name="GeoPosition" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="SampleCalculation" status="run" time="0" classname="GeoPosition" />
   </testsuite>
-  <testsuite name="Mpi" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="GetEnvironment" status="run" time="0.001" classname="Mpi" />
+  <testsuite name="Mpi" tests="1" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="GetEnvironment" status="run" time="0.002" classname="Mpi" />
   </testsuite>
-  <testsuite name="Parallel" tests="6" failures="0" disabled="0" errors="0" time="0.003">
+  <testsuite name="Parallel" tests="6" failures="0" disabled="0" errors="0" time="0.005">
     <testcase name="VectorSerial" status="run" time="0" classname="Parallel" />
     <testcase name="VectorParallel" status="run" time="0.002" classname="Parallel" />
     <testcase name="VectorPseudoParallel" status="run" time="0" classname="Parallel" />
@@ -38,51 +38,44 @@
   <testsuite name="ParseTravelModel" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="ParseDefaultTravelModel" status="run" time="0" classname="ParseTravelModel" />
   </testsuite>
-  <testsuite name="PopulationGeneration" tests="2" failures="0" disabled="0" errors="0" time="0.526">
-    <testcase name="GeneratedPopulationFitsModel" status="run" time="0.157" classname="PopulationGeneration" />
-    <testcase name="GeneratedPopulationIsInfectious" status="run" time="0.368" classname="PopulationGeneration" />
+  <testsuite name="PopulationGeneration" tests="2" failures="0" disabled="0" errors="0" time="0.467">
+    <testcase name="GeneratedPopulationFitsModel" status="run" time="0.133" classname="PopulationGeneration" />
+    <testcase name="GeneratedPopulationIsInfectious" status="run" time="0.334" classname="PopulationGeneration" />
   </testsuite>
-  <testsuite name="RunSimulator" tests="3" failures="0" disabled="0" errors="0" time="250.386">
-    <testcase name="RunSimulatorDefault" status="run" time="39.65" classname="RunSimulator" />
-    <testcase name="RunSimulatorMultiregion" status="run" time="59.868" classname="RunSimulator" />
-    <testcase name="RunSimulatorTravel" status="run" time="150.866" classname="RunSimulator" />
+  <testsuite name="RunSimulator" tests="3" failures="0" disabled="0" errors="0" time="242.97">
+    <testcase name="RunSimulatorDefault" status="run" time="37.474" classname="RunSimulator" />
+    <testcase name="RunSimulatorMultiregion" status="run" time="58.131" classname="RunSimulator" />
+    <testcase name="RunSimulatorTravel" status="run" time="147.363" classname="RunSimulator" />
   </testsuite>
-  <testsuite name="TravelModelGraph" tests="1" failures="0" disabled="0" errors="0" time="0.003">
-    <testcase name="VerifyBoostGraph" status="run" time="0.003" classname="TravelModelGraph" />
+  <testsuite name="TravelModelGraph" tests="1" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="VerifyBoostGraph" status="run" time="0.004" classname="TravelModelGraph" />
   </testsuite>
-  <testsuite name="HTTP" tests="1" failures="0" disabled="0" errors="0" time="2.002">
-    <testcase name="ServerPrototype" status="run" time="2.002" classname="HTTP" />
+  <testsuite name="HTTP" tests="1" failures="0" disabled="0" errors="0" time="2.001">
+    <testcase name="ServerPrototype" status="run" time="2.001" classname="HTTP" />
   </testsuite>
-  <testsuite name="Run_default/BatchDemos" tests="3" failures="1" disabled="0" errors="0" time="63.337">
-    <testcase name="Run/0" value_param="(&quot;default&quot;, 1)" status="run" time="20.415" classname="Run_default/BatchDemos" />
-    <testcase name="Run/1" value_param="(&quot;default&quot;, 4)" status="run" time="22.362" classname="Run_default/BatchDemos">
-      <failure message="/home/travis/build/flu-plus-plus/bachelorproef/src/test/cpp/gtester/BatchRuns.cpp:199&#x0A;The difference between num_cases and g_results.at(test_tag) is 17241, which exceeds 15000, where&#x0A;num_cases evaluates to 92241,&#x0A;g_results.at(test_tag) evaluates to 75000, and&#x0A;15000 evaluates to 15000.&#x0A;!! CHANGED !!" type=""><![CDATA[/home/travis/build/flu-plus-plus/bachelorproef/src/test/cpp/gtester/BatchRuns.cpp:199
-The difference between num_cases and g_results.at(test_tag) is 17241, which exceeds 15000, where
-num_cases evaluates to 92241,
-g_results.at(test_tag) evaluates to 75000, and
-15000 evaluates to 15000.
-!! CHANGED !!]]></failure>
-    </testcase>
-    <testcase name="Run/2" value_param="(&quot;default&quot;, 8)" status="run" time="20.559" classname="Run_default/BatchDemos" />
+  <testsuite name="Run_default/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="59.207">
+    <testcase name="Run/0" value_param="(&quot;default&quot;, 1)" status="run" time="20.098" classname="Run_default/BatchDemos" />
+    <testcase name="Run/1" value_param="(&quot;default&quot;, 4)" status="run" time="19.459" classname="Run_default/BatchDemos" />
+    <testcase name="Run/2" value_param="(&quot;default&quot;, 8)" status="run" time="19.65" classname="Run_default/BatchDemos" />
   </testsuite>
-  <testsuite name="Run_seeding_rate/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="26.28">
-    <testcase name="Run/0" value_param="(&quot;seeding_rate&quot;, 1)" status="run" time="9.692" classname="Run_seeding_rate/BatchDemos" />
-    <testcase name="Run/1" value_param="(&quot;seeding_rate&quot;, 4)" status="run" time="8.444" classname="Run_seeding_rate/BatchDemos" />
-    <testcase name="Run/2" value_param="(&quot;seeding_rate&quot;, 8)" status="run" time="8.143" classname="Run_seeding_rate/BatchDemos" />
+  <testsuite name="Run_seeding_rate/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="27.037">
+    <testcase name="Run/0" value_param="(&quot;seeding_rate&quot;, 1)" status="run" time="9.969" classname="Run_seeding_rate/BatchDemos" />
+    <testcase name="Run/1" value_param="(&quot;seeding_rate&quot;, 4)" status="run" time="8.92" classname="Run_seeding_rate/BatchDemos" />
+    <testcase name="Run/2" value_param="(&quot;seeding_rate&quot;, 8)" status="run" time="8.148" classname="Run_seeding_rate/BatchDemos" />
   </testsuite>
-  <testsuite name="Run_immunity_rate/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="43.084">
-    <testcase name="Run/0" value_param="(&quot;immunity_rate&quot;, 1)" status="run" time="15.285" classname="Run_immunity_rate/BatchDemos" />
-    <testcase name="Run/1" value_param="(&quot;immunity_rate&quot;, 4)" status="run" time="14.05" classname="Run_immunity_rate/BatchDemos" />
-    <testcase name="Run/2" value_param="(&quot;immunity_rate&quot;, 8)" status="run" time="13.749" classname="Run_immunity_rate/BatchDemos" />
+  <testsuite name="Run_immunity_rate/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="43.582">
+    <testcase name="Run/0" value_param="(&quot;immunity_rate&quot;, 1)" status="run" time="15.28" classname="Run_immunity_rate/BatchDemos" />
+    <testcase name="Run/1" value_param="(&quot;immunity_rate&quot;, 4)" status="run" time="14.253" classname="Run_immunity_rate/BatchDemos" />
+    <testcase name="Run/2" value_param="(&quot;immunity_rate&quot;, 8)" status="run" time="14.049" classname="Run_immunity_rate/BatchDemos" />
   </testsuite>
-  <testsuite name="Run_measles/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="42.174">
-    <testcase name="Run/0" value_param="(&quot;measles&quot;, 1)" status="run" time="14.982" classname="Run_measles/BatchDemos" />
-    <testcase name="Run/1" value_param="(&quot;measles&quot;, 4)" status="run" time="13.447" classname="Run_measles/BatchDemos" />
-    <testcase name="Run/2" value_param="(&quot;measles&quot;, 8)" status="run" time="13.745" classname="Run_measles/BatchDemos" />
+  <testsuite name="Run_measles/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="41.647">
+    <testcase name="Run/0" value_param="(&quot;measles&quot;, 1)" status="run" time="14.993" classname="Run_measles/BatchDemos" />
+    <testcase name="Run/1" value_param="(&quot;measles&quot;, 4)" status="run" time="12.947" classname="Run_measles/BatchDemos" />
+    <testcase name="Run/2" value_param="(&quot;measles&quot;, 8)" status="run" time="13.707" classname="Run_measles/BatchDemos" />
   </testsuite>
-  <testsuite name="Run_maximum/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="53.615">
-    <testcase name="Run/0" value_param="(&quot;maximum&quot;, 1)" status="run" time="19.31" classname="Run_maximum/BatchDemos" />
-    <testcase name="Run/1" value_param="(&quot;maximum&quot;, 4)" status="run" time="17.149" classname="Run_maximum/BatchDemos" />
-    <testcase name="Run/2" value_param="(&quot;maximum&quot;, 8)" status="run" time="17.155" classname="Run_maximum/BatchDemos" />
+  <testsuite name="Run_maximum/BatchDemos" tests="3" failures="0" disabled="0" errors="0" time="55.04">
+    <testcase name="Run/0" value_param="(&quot;maximum&quot;, 1)" status="run" time="19.697" classname="Run_maximum/BatchDemos" />
+    <testcase name="Run/1" value_param="(&quot;maximum&quot;, 4)" status="run" time="18.376" classname="Run_maximum/BatchDemos" />
+    <testcase name="Run/2" value_param="(&quot;maximum&quot;, 8)" status="run" time="16.954" classname="Run_maximum/BatchDemos" />
   </testsuite>
 </testsuites>
